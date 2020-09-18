@@ -8,7 +8,9 @@ public class Player {
     private List<Item> itemsCarrying = new ArrayList<>();
     private int currentRoomId = 1;
 
-    public Player() {}
+    public Player() {
+
+    }
 
     public void pickupItem(int itemId, GameBoard gameBoard) {
 
